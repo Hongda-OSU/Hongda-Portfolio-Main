@@ -19,8 +19,10 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi! I&apos;m Hongda Lin. A senior Computer Science and Engineering
-        student at The Ohio State University.
+      <p><font size="+2">Hi! </font>
+        I&apos;m Hongda Lin.
+        A senior Computer Science and Engineering student at The Ohio State University.
+        I&apos;m interested in Software Engineering, Computer Graphics and Game Development.
       </p>
       <ul className="actions">
         <li>
