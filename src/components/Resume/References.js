@@ -6,7 +6,7 @@ const References = () => (
     <div className="title">
       <h3>
         Download My
-        <a href="/doc/Resume.pdf" target="_blank" download> Resume </a> | <a href="/doc/Transcript.pdf" target="_blank" download> Transcript </a>
+        <a href="/files/Resume.pdf" target="_blank" download> Resume </a> | <a href="/files/Transcript.pdf" target="_blank" download> Transcript </a>
       </h3>
     </div>
   </div>
