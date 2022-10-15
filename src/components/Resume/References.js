@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const onButtonClick = () => {
-  fetch('Resume.pdf').then((response) => {
+const onButtonClick = (fileName) => {
+  fetch(fileName).then((response) => {
     response.blob().then((blob) => {
       const fileURL = window.URL.createObjectURL(blob);
       const alink = document.createElement('a');
       alink.href = fileURL;
-      alink.download = 'Resume.pdf';
+      alink.download = fileName;
       alink.click();
     });
   });
@@ -18,10 +19,8 @@ const References = () => (
     <div className="title">
       <h3>
         Download My
-        <a href="https://drive.google.com/drive/u/0/folders/1VCmLyxUU3pHi257SZciMLcln0XffP5qR"> Resume | Transcript </a>
-      </h3>
-      <h3>
-        <button type="button" onClick={onButtonClick}>Download PDF</button>
+        <Link to="/resume" onClick={() => onButtonClick('Resume.pdf')}> Resume</Link> |
+        <Link to="/resume" onClick={() => onButtonClick('Transcript.pdf')}>Transcript</Link>
       </h3>
     </div>
   </div>
