@@ -8,6 +8,11 @@ import Skills from '../components/Resume/Skills';
 import { skills, categories } from '../data/resume/skills';
 import courses from '../data/resume/courses';
 
+const sections = [
+  'Courses',
+  'Skills',
+];
+
 const Stats = () => (
   <Main
     title="Stats"
@@ -17,6 +22,12 @@ const Stats = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/stats">Stats</Link></h2>
+          <div className="link-container">
+            {sections.map((sec) => (
+              <h4 key={sec}>
+                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+              </h4>))}
+          </div>
         </div>
       </header>
       <Courses data={courses} />
