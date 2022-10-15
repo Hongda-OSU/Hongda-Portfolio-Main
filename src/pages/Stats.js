@@ -2,23 +2,25 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
+import Courses from '../components/Resume/Courses';
+import Skills from '../components/Resume/Skills';
 
-import Personal from '../components/Stats/Personal';
-import Site from '../components/Stats/Site';
+import { skills, categories } from '../data/resume/skills';
+import courses from '../data/resume/courses';
 
 const Stats = () => (
   <Main
     title="Stats"
-    description="Some statistics about Michael D'Angelo and mldangelo.com"
+    description="Some statistics about Hongda Lin"
   >
-    <article className="post" id="stats">
+    <article className="post" id="resume">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/stats">Stats</Link></h2>
         </div>
       </header>
-      <Personal />
-      <Site />
+      <Courses data={courses} />
+      <Skills skills={skills} categories={categories} />
     </article>
   </Main>
 );
