@@ -4,9 +4,10 @@ const References = () => (
   <div className="references">
     <div className="link-to" id="references" />
     <div className="title">
-      <a href="/doc/HongdaLin Resume (2022).pdf" download>
-        <h3>References are available upon request</h3>
-      </a>
+      <h3>
+        Download My
+        <a href="/doc/Resume.pdf" target="_blank" download> Resume </a> | <a href="/doc/Transcript.pdf" target="_blank" download> Transcript </a>
+      </h3>
     </div>
   </div>
 );
