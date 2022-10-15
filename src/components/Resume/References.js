@@ -19,8 +19,8 @@ const References = () => (
     <div className="title">
       <h3>
         Download My
-        <Link to="/resume" onClick={() => onButtonClick('Resume.pdf')}> Resume</Link> |
-        <Link to="/resume" onClick={() => onButtonClick('Transcript.pdf')}>Transcript</Link>
+        <Link to="/resume" onClick={() => onButtonClick('Resume.pdf')}> Resume </Link> |
+        <Link to="/resume" onClick={() => onButtonClick('Transcript.pdf')}> Transcript </Link>
       </h3>
     </div>
   </div>
