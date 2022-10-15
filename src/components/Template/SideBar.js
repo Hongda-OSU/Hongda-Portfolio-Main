@@ -33,7 +33,11 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Hongda Lin <a href="/">Hongda&apos;s Portfolio</a>.</p>
+      <p className="copyright">
+        &copy; Hongda Lin <Link to="/">Hongda&apos;s Portfolio</Link>.
+        <br />
+        Forked from <a href="https://github.com/mldangelo/personal-site">D&apos;ANGELO&apos;s great work</a>.
+      </p>
     </section>
   </section>
 );
