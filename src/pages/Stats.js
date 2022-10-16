@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
+import Personal from '../components/Stats/Personal';
 import Courses from '../components/Resume/Courses';
 import Skills from '../components/Resume/Skills';
 
@@ -11,6 +12,7 @@ import courses from '../data/resume/courses';
 const sections = [
   'Courses',
   'Skills',
+  'Personal',
 ];
 
 const Stats = () => (
@@ -32,6 +34,7 @@ const Stats = () => (
       </header>
       <Courses data={courses} />
       <Skills skills={skills} categories={categories} />
+      <Personal />
     </article>
   </Main>
 );

@@ -3,10 +3,13 @@ import Table from './Table';
 import data from '../../data/stats/personal';
 
 const PersonalStats = () => (
-  <>
-    <h3>Some stats about me</h3>
+  <div className="personal">
+    <div className="link-to" id="personal" />
+    <div className="title">
+      <h3>Some stats about me</h3>
+    </div>
     <Table data={data} />
-  </>
+  </div>
 );
 
 export default PersonalStats;

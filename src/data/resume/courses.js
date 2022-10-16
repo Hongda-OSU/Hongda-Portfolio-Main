@@ -95,8 +95,8 @@ const courses = [
     university: 'The Ohio State University',
   },
   {
-    title: 'Software Development and Design',
-    number: 'CSE 2231',
+    title: 'Software Components',
+    number: 'CSE 2221',
     university: 'The Ohio State University',
   },
 ];

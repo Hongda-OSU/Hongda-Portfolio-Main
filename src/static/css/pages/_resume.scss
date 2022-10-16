@@ -52,6 +52,7 @@
 	.courses {
 		padding-top: 1em;
 		.title {
+			margin-bottom: 1em;
 			text-align: center;
 		}
 		.course-list {
@@ -75,6 +76,13 @@
 	.references {
 		margin: 4em 0;
 		.title {
+			text-align: center;
+		}
+	}
+	.personal {
+		margin: 4em 0;
+		.title {
+			margin-bottom: 2em;
 			text-align: center;
 		}
 	}
