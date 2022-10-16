@@ -83,7 +83,10 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <span>{message}</span>
+      <p>
+        &nbsp;
+        <span>{message}</span>
+      </p>
     </div>
   );
 };
