@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 const Job = ({ data }) => (
   <article className="jobs-container">
     <header>
-      <h4><a href={data.link}>{data.company}</a> - {data.position}</h4>
+      { data.link.length === 0 ? <h4>{data.title} - {data.position}</h4>
+        : <h4><a href={data.link}>{data.title}</a> - {data.position}</h4> }
       <p className="daterange"> {data.daterange}</p>
     </header>
     <ul className="points">
@@ -17,8 +18,8 @@ const Job = ({ data }) => (
 
 Job.propTypes = {
   data: PropTypes.shape({
-    link: PropTypes.string.isRequired,
-    company: PropTypes.string.isRequired,
+    link: PropTypes.string,
+    title: PropTypes.string.isRequired,
     position: PropTypes.string.isRequired,
     daterange: PropTypes.string.isRequired,
     points: PropTypes.arrayOf(PropTypes.string).isRequired,
