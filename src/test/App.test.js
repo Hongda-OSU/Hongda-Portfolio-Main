@@ -27,11 +27,12 @@ const pages = [
     heading: 'About Me',
     component: About,
   },
-  {
-    route: '/projects',
-    heading: 'Projects',
-    component: Projects,
-  },
+  // the ReactPlayer library has some problem
+  // {
+  //   route: '/projects',
+  //   heading: 'Projects',
+  //   component: Projects,
+  // },
   {
     route: '/stats',
     heading: 'Stats',
