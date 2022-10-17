@@ -27,7 +27,6 @@ const pages = [
     heading: 'About Me',
     component: About,
   },
-  // the ReactPlayer library has some problem
   {
     route: '/projects',
     heading: 'Projects',
@@ -65,6 +64,7 @@ test('Renders 404 Page Component', () => {
 });
 
 const checkPageComponent = async (page) => {
+  // the ReactPlayer library has some problem, so have to omit this one
   if (page.heading === 'Projects') return;
   test(`Renders ${page.route} Component`, () => {
     window.scrollTo = () => {}; // TODO mock this later

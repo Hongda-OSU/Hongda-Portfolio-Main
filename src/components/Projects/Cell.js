@@ -19,7 +19,7 @@ const handleImage = (data) => (
 const handleVideo = (data) => (
   <>
     <a href={data.link} className="image" target="_blank" rel="noopener noreferrer">
-      <ReactPlayer url={data.video} controls={videoControl} width="100%" height="480px" />
+      <ReactPlayer url={data.video} controls={videoControl} width="100%" height={window.innerWidth < 500 ? '100%' : '480px'} />
     </a>
     <div className="video">
       <p>{data.desc}</p>
