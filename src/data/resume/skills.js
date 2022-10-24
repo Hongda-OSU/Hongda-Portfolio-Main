@@ -68,7 +68,7 @@ const skills = [
     category: ['Web Development', 'Mobile App Development'],
   },
   {
-    title: 'Firebase',
+    title: 'Firebase/Firestore',
     competency: 2,
     category: ['Mobile App Development'],
   },
@@ -93,18 +93,8 @@ const skills = [
     category: ['Data Analysis', 'Visualization'],
   },
   {
-    title: 'Seaborn',
+    title: 'Jupyter Notebook',
     competency: 3,
-    category: ['Data Analysis', 'Visualization'],
-  },
-  {
-    title: 'NumPy',
-    competency: 2,
-    category: ['Data Analysis'],
-  },
-  {
-    title: 'Jupyter',
-    competency: 2,
     category: ['Data Analysis'],
   },
   {
@@ -135,7 +125,7 @@ const skills = [
   {
     title: 'C++',
     competency: 3,
-    category: ['Graphics', 'Languages'],
+    category: ['Graphics', 'Languages', 'Game Development'],
   },
   {
     title: 'WebGL',

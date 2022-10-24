@@ -7,7 +7,7 @@ const positions = [
     points: [
       'Worked on an Android application that helps college students remember their important schedules.',
       'Applied MVVM design pattern and Room database for local data persistence and UI controls.',
-      'Utilized Firebase to store user data on cloud and Google Map for location based services.',
+      'Utilized NoSQL database like Firestore to store user data on cloud.',
     ],
   },
   {

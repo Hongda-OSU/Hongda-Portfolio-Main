@@ -1,4 +1,9 @@
 const courses = [
+  // {
+  //   title: 'Capstone: Software Applications',
+  //   number: 'CSE 5911',
+  //   university: 'The Ohio State University',
+  // },
   {
     title: 'Capstone: Game Design and Development',
     number: 'CSE 5912',
@@ -40,7 +45,7 @@ const courses = [
     university: 'The Ohio State University',
   },
   {
-    title: 'Computer Networking and Internet',
+    title: 'Computer Networking',
     number: 'CSE 3461',
     university: 'The Ohio State University',
   },

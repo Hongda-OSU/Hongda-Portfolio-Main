@@ -21,7 +21,7 @@ const handleVideo = (data) => (
     <a href={data.link} className="image" target="_blank" rel="noopener noreferrer">
       <ReactPlayer url={data.video} controls={videoControl} width="100%" height={window.innerWidth < 500 ? '100%' : '480px'} />
     </a>
-    <div className="video">
+    <div className="description">
       <p>{data.desc}</p>
     </div>
   </>
@@ -31,8 +31,8 @@ const Cell = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
       <header>
-        <h3><a href={data.link}>{data.title}</a></h3>
-        <time className="published">{dayjs(data.dateBegin).format('MMMM, YYYY')} - {dayjs(data.dateEnd).format('MMMM, YYYY')}</time>
+        <h3><a href={data.link} target="_blank" rel="noopener noreferrer">{data.title}</a></h3>
+        <time className="published">{dayjs(data.dateBegin).format('MMMM, YYYY')} - {data.dateEnd.length === 0 ? 'Present' : dayjs(data.dateEnd).format('MMMM, YYYY')}</time>
       </header>
       { data.image.length === 0 ? handleVideo(data) : handleImage(data)}
     </article>

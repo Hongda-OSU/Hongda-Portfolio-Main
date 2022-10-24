@@ -6,7 +6,7 @@ const PersonalStats = () => (
   <div className="personal">
     <div className="link-to" id="personal" />
     <div className="title">
-      <h3>Some stats about me</h3>
+      <h3>Personal</h3>
     </div>
     <Table data={data} />
   </div>

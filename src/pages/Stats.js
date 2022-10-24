@@ -10,9 +10,9 @@ import { skills, categories } from '../data/resume/skills';
 import courses from '../data/resume/courses';
 
 const sections = [
+  'Personal',
   'Courses',
   'Skills',
-  'Personal',
 ];
 
 const Stats = () => (
@@ -32,9 +32,9 @@ const Stats = () => (
           </div>
         </div>
       </header>
+      <Personal />
       <Courses data={courses} />
       <Skills skills={skills} categories={categories} />
-      <Personal />
     </article>
   </Main>
 );
