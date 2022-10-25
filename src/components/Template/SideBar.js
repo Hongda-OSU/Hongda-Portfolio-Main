@@ -35,8 +35,8 @@ const SideBar = () => (
       <ContactIcons />
       <p className="copyright">
         &copy; Hongda Lin <Link to="/">Hongda&apos;s Portfolio</Link>.
-        <br />
-        Forked from <a href="https://github.com/mldangelo/personal-site">MICHAEL D&apos;ANGELO&apos;s great work</a>.
+        {/* <br />
+        Forked from <a href="https://github.com/mldangelo/personal-site">MICHAEL D&apos;ANGELO&apos;s great work</a>. */}
       </p>
     </section>
   </section>
