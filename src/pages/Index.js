@@ -17,10 +17,10 @@ const Index = () => (
         </div>
       </header>
       <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
+        or check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
+        <Link to="/stats">statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
     </article>
