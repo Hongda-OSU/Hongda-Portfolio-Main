@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://hongda-osu.github.io/Hongda-Portfolio/",
+  "homepage": "https://hongdalin.me",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hongda-OSU/Hongda-Portfolio.git"
+    "url": "https://github.com/Hongda-OSU/Hongda-Portfolio-Main.git"
   },
   "engines": {
     "node": ">=14.x"

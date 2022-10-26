@@ -28,5 +28,5 @@ jobs:
       run: |
           git config user.name "Hongda-OSU"
           git config user.email "linhongda77@gmail.com"
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/Hongda-OSU/Hongda-Portfolio.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/Hongda-OSU/Hongda-Portfolio-Main.git
           npm run deploy
