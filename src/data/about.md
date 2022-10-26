@@ -1,7 +1,7 @@
 
 # Intro
 
-I am a senior Computer Science and Engineering student at The Ohio State University. My primary interests are software and gaming industries. Over the pass three years, I developed a systematic knowledge base in computer science through taking courses in software engineering, computer graphics, game development, visualization, and so on. If you think I can be helpful to you or would like to meet me, please feel free to get in touch.
+I am a senior Computer Science and Engineering student at The Ohio State University. My primary interests are software and gaming industries. Over the pass three years, I developed a systematic knowledge base in computer science through taking courses in software engineering, computer graphics, game development, visualization, and so on. If you think I can be helpful to you or would like to meet me, please feel free to [get in touch](/Hongda-Portfolio/contact).
 
 # I like
 
