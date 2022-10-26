@@ -19,7 +19,8 @@ const data = [
     dateBegin: '2022-4-25',
     dateEnd: '2022-5-08',
     desc:
-      'A simple medical image helper for tracking and simulating doctor\'s eye-movement. The project is built in two parts: Dlib + CV2 (for tracking) and Unity (for simulation).',
+      'A simple medical image helper for tracking pathologist\'s eye-movement. We use Dlib + CV2 to track the gaze direction and detect eye blink. '
+      + 'And we use Unity to shift the image toward the gaze direction when blink happens.',
   },
   {
     title: 'Endless Runner',
@@ -53,7 +54,7 @@ const data = [
     dateBegin: '2021-08-31',
     dateEnd: '2022-12-13',
     desc:
-      'Restored the complete Level 1 dungeon of classic game Legend of Zelda 1986.',
+      'Restored the complete Level 1 dungeon of classic game Legend of Zelda 1986, including 10 player abilities, 15 enemies and 25 items. Implemented procedural dungeon generation algorithm.',
   },
   {
     title: 'CraftMine (Mincraft Clone)',
@@ -63,7 +64,7 @@ const data = [
     dateBegin: '2021-10-20',
     dateEnd: '2022-01-20',
     desc:
-      'Learned to build a voxel-based world like Minecraft and the application of Perlin Noise in terrain generation.',
+      'Learned to build a voxel-based world like Minecraft and the application of Perlin Noise in terrain generation. Achieved the basic player interactions including navigation and building system.',
   },
   {
     title: 'L-System Generator',
@@ -73,7 +74,7 @@ const data = [
     dateBegin: '2022-09-23',
     dateEnd: '2022-10-15',
     desc:
-      'Created an OpenGL program that produces growing 2D plant models based on L-system growth techniques.',
+      'Created an OpenGL program that produces growing 2D plant models based on L-system (Lindenmayer system) growth techniques.',
   },
   {
     title: 'Buckeye Schedule (Developing)',
@@ -83,7 +84,7 @@ const data = [
     dateBegin: '2022-09-03',
     dateEnd: '',
     desc:
-      'Buckeye Schedule is an Android application aimed on helping college students to remember their important schedules.',
+      'Buckeye Schedule is an Android application aimed on helping college students to remember their important schedules. (The project is under development)',
   },
   {
     title: 'Data Visualization',

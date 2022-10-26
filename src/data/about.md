@@ -7,9 +7,10 @@ I am a senior Computer Science and Engineering student at The Ohio State Univers
 
 - Basketball
 - Hiking
-- Go to the Aquarium
-- Video Games
+- The Aquarium
 - Sunshine
+- Octopath Traveler
+- Elden Ring
 - The Lord of the Rings
 - Lofi Musics
 - Good Design
@@ -28,5 +29,5 @@ I am a senior Computer Science and Engineering student at The Ohio State Univers
 - always finding inspiration.
 - enabling a brighter future.
 - doing better.
-- become a billionaire.
+- becoming a billionaire.
 - making more games.
