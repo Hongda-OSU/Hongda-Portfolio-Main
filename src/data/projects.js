@@ -90,7 +90,7 @@ const data = [
     title: 'Data Visualization',
     subtitle: 'CSE 5544 - Data Visualization',
     link: 'https://github.com/Hongda-OSU/CSE5544-Data-Visualization',
-    image: '/images/projects/D3.png',
+    image: '/images/projects/D3.gif',
     dateBegin: '2022-09-03',
     dateEnd: '',
     desc:
