@@ -22,7 +22,7 @@ const handleVideo = (data) => (
       <ReactPlayer url={data.video} controls={videoControl} width="100%" height={window.innerWidth < 500 ? '100%' : '480px'} />
     </a>
     <div className="description">
-      {data.title === 'Karma' ? <p>{data.desc} <a href="https://www.youtube.com/watch?v=JR4xMvp29VI&t=816s">(Demo Gameplay)</a>.</p> : <p>{data.desc}</p>}
+      {data.title === 'Karma' ? <p>{data.desc} <a href="https://www.youtube.com/watch?v=JR4xMvp29VI&t=816s" target="_blank" rel="noopener noreferrer">(Demo Gameplay)</a>.</p> : <p>{data.desc}</p>}
     </div>
   </>
 );
