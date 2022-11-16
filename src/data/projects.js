@@ -74,7 +74,7 @@ const data = [
     dateBegin: '2022-09-23',
     dateEnd: '2022-10-15',
     desc:
-      'Created an OpenGL program that produces growing 2D plant models based on L-system (Lindenmayer system) growth techniques.',
+      'Created an OpenGL program that produces growing 2D plant models based on L-system (Lindenmayer system) with skybox.',
   },
   {
     title: 'Buckeye Schedule (Developing)',
@@ -94,7 +94,7 @@ const data = [
     dateBegin: '2022-09-03',
     dateEnd: '',
     desc:
-      'Stock and Energy data visualized using D3 and Pandas.',
+      'Energy data visualized using D3 and Pandas.',
   },
 ];
 
