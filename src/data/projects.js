@@ -84,7 +84,7 @@ const data = [
     dateBegin: '2022-09-03',
     dateEnd: '',
     desc:
-      'Buckeye Schedule is an Android application aimed on helping college students to remember their important schedules. (The project is under development)',
+      'Buckeye Schedule is an Android application aimed on helping college students to remember their important things. (The project is under development)',
   },
   {
     title: 'Data Visualization',
