@@ -11,16 +11,15 @@ const data = [
       'Karma is a First-Person Shooting game that gives players an awesome gameplay experience while exploring different maps, skill trees, and customizable elements in RPG crawlers.',
   },
   {
-    title: 'Medical Image Helper',
-    subtitle: 'CSE 5546 - Virtual Reality',
+    title: 'Buckeye Schedule',
+    subtitle: 'CSE 5236 - Mobile Application Development',
     image: '',
-    link: 'https://github.com/Hongda-OSU/CSE-5546-AR-Eye-Tracking',
-    video: 'https://www.youtube.com/watch?v=wyJaXIFSe5I&t=88s',
-    dateBegin: '2022-4-25',
-    dateEnd: '2022-5-08',
+    link: 'https://github.com/Hongda-OSU/CSE5236-Buckeye-Schedule',
+    video: 'https://www.youtube.com/watch?v=yEP96enlJ8k',
+    dateBegin: '2022-09-03',
+    dateEnd: '2022-12-04',
     desc:
-      'A simple medical image helper for tracking pathologist\'s eye-movement. We use Dlib + CV2 to track the gaze direction and detect eye blink. '
-      + 'And we use Unity to shift the image toward the gaze direction when blink happens.',
+      'Buckeye Schedule is an Android application aimed on helping college students schedule things. Students could use the device camera to take a photo and set a reminder for the generated schedule.',
   },
   {
     title: 'Endless Runner',
@@ -57,6 +56,18 @@ const data = [
       'Restored the complete Level 1 dungeon of classic game Legend of Zelda 1986, including 10 player abilities, 15 enemies and 25 items. Implemented procedural dungeon generation algorithm.',
   },
   {
+    title: 'Medical Image Helper',
+    subtitle: 'CSE 5546 - Virtual Reality',
+    image: '',
+    link: 'https://github.com/Hongda-OSU/CSE-5546-AR-Eye-Tracking',
+    video: 'https://www.youtube.com/watch?v=wyJaXIFSe5I&t=88s',
+    dateBegin: '2022-4-25',
+    dateEnd: '2022-5-08',
+    desc:
+      'A simple medical image helper for tracking pathologist\'s eye-movement. We use Dlib + CV2 to track the gaze direction and detect eye blink. '
+      + 'And we use Unity to shift the image toward the gaze direction when blink happens.',
+  },
+  {
     title: 'CraftMine (Mincraft Clone)',
     subtitle: 'Personal Project',
     link: 'https://github.com/Hongda-OSU/CraftMine',
@@ -69,7 +80,7 @@ const data = [
   {
     title: 'L-System Generator',
     subtitle: 'CSE 5542 - Realtime Rendering',
-    link: 'https://github.com/Hongda-OSU/CSE5542-L-System',
+    link: 'https://github.com/Hongda-OSU/CSE5542-Realtime-Rendering',
     image: '/images/projects/LSystem.gif',
     dateBegin: '2022-09-23',
     dateEnd: '2022-10-15',
@@ -77,22 +88,12 @@ const data = [
       'Created an OpenGL program that produces growing 2D plant models based on L-system (Lindenmayer system) with skybox.',
   },
   {
-    title: 'Buckeye Schedule (Developing)',
-    subtitle: 'CSE 5236 - Mobile Application Development',
-    link: 'https://github.com/Hongda-OSU/CSE5236-Buckeye-Schedule',
-    image: '/images/projects/BuckeyeSchedule.gif',
-    dateBegin: '2022-09-03',
-    dateEnd: '',
-    desc:
-      'Buckeye Schedule is an Android application aimed on helping college students to remember their important things. (The project is under development)',
-  },
-  {
     title: 'Data Visualization',
     subtitle: 'CSE 5544 - Data Visualization',
     link: 'https://github.com/Hongda-OSU/CSE5544-Data-Visualization',
     image: '/images/projects/D3.gif',
     dateBegin: '2022-09-03',
-    dateEnd: '',
+    dateEnd: '2022-12-04',
     desc:
       'Energy data visualized using D3 and Pandas.',
   },

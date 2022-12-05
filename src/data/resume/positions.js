@@ -8,6 +8,7 @@ const positions = [
       'Worked on an Android application that helps college students remember their important schedules.',
       'Applied MVVM design pattern and Room database for local data persistence and UI controls.',
       'Utilized NoSQL database like Firestore to preserve user data on cloud.',
+      'Functionalized internal services like photo taking schedule generation and reminder broadcast.',
     ],
   },
   {
@@ -23,16 +24,6 @@ const positions = [
     ],
   },
   {
-    title: 'VR/AR Vulnerability Analysis',
-    position: 'Research Volunteer',
-    link: '',
-    daterange: 'January 2022 - May 2022',
-    points: [
-      'Analyzed different cloned games, ripped game assets and third-party plug-ins on Android Market using AssetStudio.',
-      'Implemented a VR shooting game for vulnerability testing under Oculus device and OBS studio.',
-    ],
-  },
-  {
     title: 'Karma',
     position: 'Capstone Team Leader',
     link: 'https://polygamers.itch.io/karma',
@@ -42,6 +33,16 @@ const positions = [
       'Designated as scrum master, communicated bi-weekly progress through Timebox presentation.',
       'Implemented original FPS system, Inventory system, Player control, Enemy AI, and Animation system.',
       'Awarded as “The Best Game” and “The Most Polished Game” out of 7 class teams by the semester capstone showcase voting.',
+    ],
+  },
+  {
+    title: 'VR/AR Vulnerability Analysis',
+    position: 'Research Volunteer',
+    link: '',
+    daterange: 'January 2022 - May 2022',
+    points: [
+      'Analyzed different cloned games, ripped game assets and third-party plug-ins on Android Market using AssetStudio.',
+      'Implemented a VR shooting game for vulnerability testing under Oculus device and OBS studio.',
     ],
   },
   {
