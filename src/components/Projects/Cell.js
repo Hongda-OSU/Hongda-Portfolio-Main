@@ -31,7 +31,7 @@ const Cell = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
       <header>
-        <h3><a href={data.link} target="_blank" rel="noopener noreferrer">{data.title}</a></h3>
+        {data.link.length === 0 ? <h3>{data.title}</h3> : <h3><a href={data.link} target="_blank" rel="noopener noreferrer">{data.title}</a></h3>}
         <time className="published">{dayjs(data.dateBegin).format('MMMM, YYYY')} - {data.dateEnd.length === 0 ? 'Present' : dayjs(data.dateEnd).format('MMMM, YYYY')}</time>
       </header>
       { data.image.length === 0 ? handleVideo(data) : handleImage(data)}

@@ -36,7 +36,7 @@ const data = [
     title: 'AI Agents and Steering',
     subtitle: 'CSE 3541 - Computer Game and Animation',
     image: '',
-    link: 'https://github.com/Hongda-OSU/CSE3541-Lab5-AI-Agents',
+    link: '',
     video: 'https://www.youtube.com/watch?v=9Ru5QHfA88Q',
     dateBegin: '2021-10-15',
     dateEnd: '2021-10-25',
