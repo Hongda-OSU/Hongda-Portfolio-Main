@@ -27,12 +27,12 @@ const data = [
   {
     key: 'major',
     label: 'Major GPA (CS)',
-    value: '3.946',
+    value: '3.954',
   },
   {
     key: 'cumulative',
     label: 'Cumulative GPA',
-    value: '3.806',
+    value: '3.822',
   },
   {
     key: 'leetcode',

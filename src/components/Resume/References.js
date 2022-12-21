@@ -20,7 +20,7 @@ const References = () => (
       <h3>
         Download My
         <Link to="/resume" onClick={() => onButtonClick('Resume.pdf')}> Resume </Link> |
-        <Link to="/resume" onClick={() => onButtonClick('Transcript.pdf')}> Transcript </Link>
+        <Link to="/resume" onClick={() => onButtonClick('Recommendation letter for Hongda Lin.pdf')}> Testimonial </Link>
       </h3>
     </div>
   </div>

@@ -5,7 +5,7 @@ const Job = ({ data }) => (
   <article className="jobs-container">
     <header>
       { data.link.length === 0 ? <h4>{data.title} - {data.position}</h4>
-        : <h4><a href={data.link}>{data.title}</a> - {data.position}</h4> }
+        : <h4><a href={data.link} target="_blank" rel="noopener noreferrer">{data.title}</a> - {data.position}</h4> }
       <p className="daterange"> {data.daterange}</p>
     </header>
     <ul className="points">

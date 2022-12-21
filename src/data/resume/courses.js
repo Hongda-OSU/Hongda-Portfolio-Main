@@ -10,6 +10,11 @@ const courses = [
     university: 'The Ohio State University',
   },
   {
+    title: 'Capstone: Software Applications',
+    number: 'CSE 5911',
+    university: 'The Ohio State University',
+  },
+  {
     title: 'Data Visualization',
     number: 'CSE 5544',
     university: 'The Ohio State University',

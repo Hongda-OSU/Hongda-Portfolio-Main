@@ -1,14 +1,15 @@
 const positions = [
   {
     title: 'Buckeye Schedule',
-    position: 'Project Team Leader',
+    position: 'Individual Project',
     link: 'https://github.com/Hongda-OSU/CSE5236-Buckeye-Schedule',
-    daterange: 'September 2022 - PRESENT',
+    daterange: 'September 2022 - December 2022',
     points: [
-      'Worked on an Android application that helps college students remember their important schedules.',
-      'Applied MVVM design pattern and Room database for local data persistence and UI controls.',
+      'Worked on an Android application that helps college students keep schedules.',
+      'Applied MVVM design pattern, Room database, Adapter pattern for local data persistence and UI controls.',
       'Utilized NoSQL database like Firestore to preserve user data on cloud.',
-      'Functionalized internal services like photo taking schedule generation and reminder broadcast.',
+      'Functionalized internal services like photo taking and schedule reminders.',
+      'Implemented different NFRs including permissions checking and multi-languages.',
     ],
   },
   {
